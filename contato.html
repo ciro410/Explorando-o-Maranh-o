@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Contato</title>
+</head>
+<body>
+    
+    <header>
+        <div class="header">
+            <img src="./imagens/logo-governo-maranhao.png" alt="">
+            
+            <nav>
+                <ul>
+                    <li><a href="home.html" class="btn">Home</a></li>
+                    <li><a href="cultura.html" class="btn">Cultura</a></li>
+                    <li><a href="culinaria.html" class="btn">Culinária</a></li>
+                    <li><a href="turismo.html" class="btn">Turismo</a></li>
+                 </ul>
+            </nav>
+        </div>
+    
+    </header>
+
+    <div class="formulario">
+        <form action="">
+            <label for="nome-completo">Nome Competo</label>
+            <input type="text" id="nome-completo" class="input-padrao" required>
+
+            <label for="email">E-mail</label>
+            <input type="email" id="email"  class="input-padrao" required placeholder="seuemail@dominio.com">
+            
+            <label for="telefone">Telefone</label>
+            <input type="tel" id="telefone"  class="input-padrao" required placeholder="(XX) XXXXX-XXXX">
+
+            <label for="mensagem">Deixe sua mensagem</label>
+            <textarea name="Deixe sua mensagem" id="mensagem" cols="70" rows="10"  class="input-padrao" required></textarea>
+
+
+           <fieldset>
+            <legend>Como prefere nosso contato ?</legend>
+            <label for="radio-email"> <input type="radio" name="contato" value="email" id = "radio-email">E-mail</label>
+           
+            <label for="radio-telefone"><input type="radio" name="contato" value="telefone" id = "radio-telefone">Telefone</label>
+           
+            <label for="radio-whatsapp"><input type="radio" name="contato" value="whatsApp" id = "radio-whatsapp" checked>WhatsApp</label>
+
+           </fieldset>
+                
+
+            <fieldset>
+                <legend>Qual horário gostaria de ser atendido?</legend>
+                <select name="" id="">
+                    <option value="">Manhã</option>
+                    <option value="">Tarde</option>
+                    <option value="">Noite</option>
+                </select>
+
+            </fieldset>
+
+            <label class="checkbox"> <input type="checkbox" checked> Gostaria de receber nossas novidade por e-mail?</label>
+
+            <input type="submit" value="Enviar Formulário" class=" botao botao-enviar">
+        </form>
+    </div>
+
+    <table>
+        
+    </table>
+
+   
+
+    <footer>
+        <div class="header">
+            <img src="./imagens/logo-governo-maranhao.png" alt="">
+        </div>
+
+        <div class="inova">Inova Maranhão</div>
+
+        <div class="container-social">
+            <ul class="social">
+                <li>
+                    <a href="#">
+                      <img src="./imagens/icon-facebook.svg" alt="facebook">
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                      <img src="./imagens/icon-instagram.svg" alt="instagram">
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                      <img src="./imagens/icon-twitter.svg" alt="twitter">
+                    </a>
+                </li>
+            </ul>
+      
+        </div>
+            
+
+    </footer>
+
+   
+</body> 
+</html>
