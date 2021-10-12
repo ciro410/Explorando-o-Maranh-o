@@ -1,0 +1,275 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+body {
+    background-color: #D1DBBD;
+    font-family: 'Lato', sans-serif;
+}
+
+header{
+    background-color: #3E606F;
+    padding: 30px 0;
+}
+
+.header{
+    width: 940px;
+    position: relative;
+    margin: 0 auto;
+
+}
+
+
+nav{
+    position: absolute;
+    top: 30px;
+    right:30px;
+}
+
+nav li{
+    display: inline;
+    margin-left: 40px;
+}
+nav a{
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: bold;
+    color:#FCFFF5;
+    font-size: 18px;
+    
+}
+
+nav a:hover{
+   
+    text-decoration: underline;
+}
+
+nav a:active{
+    color: aquamarine;
+    text-decoration: underline;
+}
+
+
+
+
+
+.card
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 520px;
+    margin: 20px ;
+    border-radius: 15px;
+    background-color: #91AA9D;
+    padding: 40px 20px;
+    margin-bottom: 100px;
+    margin-top: 80px;
+}
+
+.card:hover{
+    border:#000000 2px solid;
+    
+}
+
+.card:active{
+    border:#000000 2px solid;
+    
+}
+
+.card:hover h1{
+    font-size: 45px;
+
+}
+
+.card:hover h2{
+    font-size: 40px;
+
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.card p{
+    margin-bottom: 20px;
+    font-size: 20px;
+
+}
+
+.card h1{
+    font-size: 40px;
+    margin-bottom: 40px;
+
+}
+
+.card img{
+    border-radius: 15px;
+    
+}
+
+.botao{
+    background:#193441;
+    font-weight: bold;
+    border-radius: 10px;
+    margin-top: 30px;
+    padding: 15px;
+    cursor: pointer;
+
+}
+
+.botao:hover{
+    background-color:#002041;
+    transition: 0.5s all;
+    transform: scale(1.2);
+}
+
+
+.botao a{
+    text-decoration: none;
+    color: #FCFFF5;
+    font-size: 20px;
+}
+
+footer{
+    background-color: #fcfaf7;
+    padding: 30px 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 72px 0;
+    margin-top: 40px;
+}
+
+footer .container-social{
+    margin-right: 100px;
+}
+
+footer .inova{
+    font-size: 30px;
+    text-align: center;
+    margin-right: 300px;
+}
+
+footer a {
+    color: #193441;
+}
+
+footer li{
+    margin-left: 50px;
+}
+
+footer .social{
+    display: flex;
+}
+.main-section{
+    margin: 20px 90px;
+    min-width: 100vh ;
+
+}
+.main-section .titulo {
+    font-size: 45px;
+    margin: 30px 0;
+    
+    
+
+}
+.main-section .sub-titulo {
+    font-size: 30px;
+    margin: 30px 0;
+    
+    
+}
+
+.main-section p{
+    font-size: 20px;
+    
+}
+
+.main-section img{
+    margin: 30px auto;
+    border-radius: 15px;
+}
+
+.section{
+    margin: 20px;
+
+}
+
+.section h2{
+    font-size: 30px;
+}
+
+.section img{
+    margin: 30px 0;
+}
+
+.botao-turismo-section{
+    margin: 50px 0;
+    justify-content: center;
+    text-align: center;
+
+}
+
+ .botao-turismo{
+    background-color:#193441;
+    font-weight: bold;
+    
+}
+
+.formulario{
+    width: 940px;
+    margin: 40px auto;
+    
+    
+}
+
+.formulario label, .formulario legend{
+    display: block;
+    font-size: 20px;
+    margin: 15px 0;
+    
+}
+
+.input-padrao{
+    display: block;
+    padding: 10px 25px;
+    width: 50%;
+    border-radius: 10px;
+}
+
+fieldset{
+    margin: 30px 0;
+}
+
+.botao-enviar{
+    width: 40%;
+    padding: 15px 0;
+    background-color: #193441;
+    color: #fcfaf7;
+    font-size: 17px;
+    font-weight: bold;
+    margin: 30px 0;
+    border-radius: 15px;
+}
+
+
+table{
+    margin: 50px;
+    text-align: center;
+}
+
+thead{
+    background-color: #193441;
+    color: #FCFFF5;
+    font-weight: bold;
+
+}
+ td,th{
+     border: 1px solid #000000;
+     padding: 8px 16px;
+ }
